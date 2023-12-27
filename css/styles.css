@@ -265,10 +265,10 @@ img {
 }
 
 .portfolio-item {
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  border-left: 1px solid var(--CORNFLOWER, #e7e9fc);
-  border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  background: #fff;
   width: 360px;
   height: 420px;
 }
