@@ -76,7 +76,9 @@ img {
   margin-left: 76px;
   margin-right: 332px;
   align-items: flex-start;
-  gap: 40px;
+}
+
+.header-menu-item {
   padding: 24px 0;
 }
 
@@ -158,13 +160,12 @@ img {
   padding: 120px 0;
 }
 
-.advantages-title {
+.visually-hidden {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: none;
 }
 
 .advantages-list {
@@ -244,7 +245,7 @@ img {
   margin-bottom: 8px;
 }
 .team-container {
-  padding: 32px, 0;
+  padding: 32px 0;
 }
 
 .team-item-position {
