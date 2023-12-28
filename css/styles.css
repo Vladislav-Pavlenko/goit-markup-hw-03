@@ -79,7 +79,7 @@ img {
   gap: 40px;
 }
 
-.header-menu-item {
+.header-link {
   padding: 24px 0;
 }
 
@@ -161,6 +161,9 @@ img {
   padding: 120px 0;
 }
 
+.visually-hidden {
+  display: none;
+}
 .advantages-list {
   display: flex;
   flex-direction: row;
