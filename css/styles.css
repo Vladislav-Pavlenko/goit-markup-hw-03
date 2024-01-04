@@ -68,13 +68,12 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-navigation-menu {
   display: flex;
   flex-direction: row;
-  margin-left: 76px;
-  margin-right: 332px;
   align-items: flex-start;
   gap: 40px;
 }
@@ -113,6 +112,10 @@ img {
   flex-direction: row;
   align-items: center;
   gap: 40px;
+}
+
+.header-link {
+  font-style: normal;
 }
 
 .page {
@@ -169,8 +172,6 @@ img {
 }
 
 .advantages-list-item {
-  display: flex;
-  width: 264px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
@@ -239,7 +240,6 @@ img {
 }
 
 .team-item-img {
-  margin-bottom: 32px;
 }
 
 .team-item-name {
@@ -295,16 +295,9 @@ img {
 
 .portfolio-item {
   background: #fff;
-  width: 360px;
-  height: 420px;
-}
-
-.item-down {
-  margin-bottom: 48px;
 }
 
 .portfolio-item-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-item-name {
@@ -314,7 +307,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  padding: 0 16px;
 }
 
 .portfolio-item-type {
@@ -322,7 +314,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 0 16px;
 }
 
 .footer {
@@ -350,7 +341,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
