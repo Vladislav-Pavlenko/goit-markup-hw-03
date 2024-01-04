@@ -175,9 +175,6 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-}
-
-.advantages-list-item: :first-child {
   width: calc((100% - 72px) / 4);
 }
 
