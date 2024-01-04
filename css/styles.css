@@ -177,6 +177,10 @@ img {
   gap: 8px;
 }
 
+.advantages-list-item: :first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-list-item h3 {
   margin-bottom: 8px;
 }
